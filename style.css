@@ -33,13 +33,13 @@ a:hover {
     color: #FFFFFF;
 }
 .top-banner img{
-    width: 556px;
-    height: 438px;
+    width: 500px;
+    height: 350px;
     transition:width 5s,height 5s, transform 5s;
 }
 .top-banner img:hover{
-    width: 600px;
-    height: 550px;
+    width: 550px;
+    height: 400px;
     transform: rotate(70deg);
 
 }
