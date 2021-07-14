@@ -1,0 +1,228 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    
+}
+.container{
+    background-color: #2D25A0;
+    width: 90%;
+    height: 677px;
+    padding-left: 156px;
+    padding-top: 153px;
+    margin-bottom: 70px;
+}
+
+
+.live-link{
+    text-decoration: none;
+    background: #E02C6D;
+    color:white;
+    padding: 10px 24px;
+    
+
+}
+a:hover {
+    background-color: rgb(14, 238, 89);
+}
+.top-header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.top-banner img{
+    width: 556px;
+    height: 438px;
+    transition:width 5s,height 5s, transform 5s;
+}
+.top-banner img:hover{
+    width: 600px;
+    height: 550px;
+    transform: rotate(70deg);
+
+}
+/*...................
+ ...........players style ............*/
+
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 80px;
+}
+.player{
+     margin: 15px; 
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+} 
+.tumbnail img{
+    width: 290px;
+    height: 200px;
+    padding: 15px;
+   
+
+}
+.player-info{
+    padding: 15px;
+    margin-top: -50px;
+}
+.player-name{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* search bar/ video set bar */
+
+.search{
+    width: 100%;
+    height: 300px;
+    background-color: teal;
+    border-radius: 10px;
+}
+.search-header{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    padding-top: 1.6em;
+
+}
+form.search-bar input[type=text] {
+     margin-left: 50px;
+    padding: 18px;
+    font-size: 20px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background:rgb(84, 67, 107); 
+}
+form.search-bar button {
+    float: left;
+    width: 10%;
+    height: 62px;
+    padding: 18px;
+    background-color: rgb(13, 233, 68);
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+} 
+form.search-bar button:hover{
+    background-color: rgb(238, 104, 14);
+}
+
+
+.video-edit{
+    width: 80%;
+    margin-left: 5%;
+    padding-right: 100px;
+    
+    margin-top: 30px;
+    background-color:rgb(205, 243, 162);
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px 8px rgba(14, 11, 11, 0.808);
+    
+
+}
+
+.video-header{
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.video-set{
+    margin-left: 150px;
+    margin-top: 40px;
+    width: 80%;
+    height: 300px;
+    border: 2px solid grey;
+}
+
+/* footer start */
+.logo{
+    width: 30%;
+    padding-left: 40%;
+    padding-top: 20px;
+}
+
+.footer-set{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(237, 142, 124);
+    border-radius: 5px;
+
+}
+.icon-set {
+    padding-left: 500px;
+    
+}
+.color-mas{
+    color: rgb(15, 9, 9);
+    margin-top: 30px;
+    padding: 15px;
+    
+}
+.copy-right{
+    padding-left: 500px;
+    color: rgb(8, 8, 7);
+}
+
+/* ................
+media queries for mobile
+........................*/
+@media only screen and (max-width:688px) {
+    .container{
+        /* padding-left: 156px;
+        padding-top: 153px;
+        margin-bottom: 70px; */
+        padding-left: 50px;
+        padding-top: 75px;
+        margin-bottom: 35px;
+        width: 100%;
+
+    } 
+.top-header{
+    
+    font-size: 20px;
+}
+.top-banner img{
+    width: 278px;
+    height: 219px;
+}
+.live-link{
+    padding: 2px 8px;
+}
+
+.players{
+    
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+} 
+
+.video-set{
+    margin-left: 85px;
+}
+
+.footer-last-part{
+    max-width: 688px;
+    
+}
+.icon-set{
+    max-width: 688px;
+    padding-left: 100px;
+    display: inline;
+}
+.copy-right{
+    max-width: 688px;
+    padding-left: 100px;
+    display: inline;
+}
+
+    
+
+}  
+   
+    
